@@ -1,0 +1,14 @@
+/Users/cedrickmarie/HeritagePoo/bin/Debug/net8.0/HeritagePoo
+/Users/cedrickmarie/HeritagePoo/bin/Debug/net8.0/HeritagePoo.deps.json
+/Users/cedrickmarie/HeritagePoo/bin/Debug/net8.0/HeritagePoo.runtimeconfig.json
+/Users/cedrickmarie/HeritagePoo/bin/Debug/net8.0/HeritagePoo.dll
+/Users/cedrickmarie/HeritagePoo/bin/Debug/net8.0/HeritagePoo.pdb
+/Users/cedrickmarie/HeritagePoo/obj/Debug/net8.0/HeritagePoo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cedrickmarie/HeritagePoo/obj/Debug/net8.0/HeritagePoo.AssemblyInfoInputs.cache
+/Users/cedrickmarie/HeritagePoo/obj/Debug/net8.0/HeritagePoo.AssemblyInfo.cs
+/Users/cedrickmarie/HeritagePoo/obj/Debug/net8.0/HeritagePoo.csproj.CoreCompileInputs.cache
+/Users/cedrickmarie/HeritagePoo/obj/Debug/net8.0/HeritagePoo.dll
+/Users/cedrickmarie/HeritagePoo/obj/Debug/net8.0/refint/HeritagePoo.dll
+/Users/cedrickmarie/HeritagePoo/obj/Debug/net8.0/HeritagePoo.pdb
+/Users/cedrickmarie/HeritagePoo/obj/Debug/net8.0/HeritagePoo.genruntimeconfig.cache
+/Users/cedrickmarie/HeritagePoo/obj/Debug/net8.0/ref/HeritagePoo.dll

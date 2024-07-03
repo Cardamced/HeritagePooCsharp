@@ -12,3 +12,4 @@
 /Users/cedrickmarie/HeritagePoo/obj/Debug/net8.0/HeritagePoo.pdb
 /Users/cedrickmarie/HeritagePoo/obj/Debug/net8.0/HeritagePoo.genruntimeconfig.cache
 /Users/cedrickmarie/HeritagePoo/obj/Debug/net8.0/ref/HeritagePoo.dll
+/Users/cedrickmarie/HeritagePoo/obj/Debug/net8.0/HeritagePoo.sourcelink.json

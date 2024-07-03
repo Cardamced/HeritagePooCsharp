@@ -7,13 +7,14 @@ namespace HeritagePoo
     {
         public static void Main()
         {
-            Animal[] animalsSet = new Animal[6];
+            Animal[] animalsSet = new Animal[7];
             Human human = new Human("Bob");
             Monkey monkey = new Monkey("Cheetah");
             Elephant elephant = new Elephant("Dumbo");
             Tortoise tortoise = new Tortoise("Donatello");
             Chicken chicken = new Chicken("Chico");
             Lizard lizard = new Lizard("Denver");
+            SwordFish swordFish = new SwordFish("Swordy");
 
             animalsSet[0] = human;
             animalsSet[1] = monkey;
@@ -21,6 +22,7 @@ namespace HeritagePoo
             animalsSet[3] = tortoise;
             animalsSet[4] = chicken;
             animalsSet[5] = lizard;
+            animalsSet[6] = swordFish;
 
             foreach (Animal animal in animalsSet)
             {
@@ -70,9 +72,13 @@ namespace HeritagePoo
             {
                 type = "Bird";
             }
-            else
+            else if (this is Reptile)
             {
                 type = "Reptile";
+            }
+            else
+            {
+                type = "Fish";
             }
             return $"{_name} is a {type} with {_legsCount} legs or paws and " + $"{_name} is {(_hairy ? "hairy" : "not hairy")}\n";
         }
@@ -91,6 +97,11 @@ namespace HeritagePoo
     public abstract class Bird : Animal
     {
         public Bird(string name, short legsCount, bool hairy) : base(name, legsCount, hairy) { }
+    }
+
+    public abstract class Fish : Animal
+    {
+        public Fish(string name, short legsCount, bool hairy) : base(name, legsCount, hairy) { }
     }
 
 
@@ -143,6 +154,16 @@ namespace HeritagePoo
         public override void Move()
         {
             System.Console.WriteLine(_name + " walks and jumps a little because it can't fly although it's got wings");
+        }
+    }
+    public class SwordFish : Fish
+    {
+        public SwordFish(string name) : base(name, 0, false)
+        { }
+
+        public override void Move()
+        {
+            System.Console.WriteLine(_name + " can't walk because it's got no paws");
         }
     }
 
